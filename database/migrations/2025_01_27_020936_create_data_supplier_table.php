@@ -10,7 +10,7 @@ return new class extends Migration
     {
         Schema::create('supplier', function (Blueprint $table) {
             $table->string('kode_supplier', 6)->primary();
-            $table->string('nama_supplier', 20);  // Diubah dari 50 ke 20
+            $table->string('nama_supplier', 20);
             $table->string('nohp', 13);
             $table->string('kode_barang', 6);
             $table->timestamps();
